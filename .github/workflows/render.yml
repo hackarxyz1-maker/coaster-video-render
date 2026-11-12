@@ -38,7 +38,7 @@ jobs:
         working-directory: project
         run: |
           mkdir -p out
-          npx remotion render src/index.jsx Full out/video.mp4 --codec=h264 --crf=18 --concurrency=2 --gl=angle
+          npx remotion render src/index.jsx Full out/video.mp4 --codec=h264 --crf=18 --concurrency=2 --gl=swangle
 
       - name: Add Hindi Voiceover
         working-directory: project
